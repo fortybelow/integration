@@ -1,12 +1,6 @@
-bin/
-*.o
-*.exe
-*.out
-.vscode/*
-server
-workspace/
-reference
-backup*
-build
 build/*
-build/**
+backup*
+reference
+workspace
+.ssh/*ecdsa*
+.vscode/*
