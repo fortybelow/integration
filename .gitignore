@@ -1,0 +1,12 @@
+bin/
+*.o
+*.exe
+*.out
+.vscode/*
+server
+workspace/
+reference
+backup*
+build
+build/*
+build/**

@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+    jenkins-host:
+        volumes:
+            - ./workspace:/var/jenkins_home
+            - ./reference:/usr/share/jenkins/ref
+        ports:
+            - '8080:8080'
+            - '50000:50000'
+        image: jenkins/jenkins:lts-jdk11
