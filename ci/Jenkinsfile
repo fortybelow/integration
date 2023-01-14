@@ -1,0 +1,21 @@
+// Sample Jenkinsfile
+
+pipeline {
+    agent any
+
+    steps {
+        step("Checkout") {
+            checkout([
+                $class: 'GitSCM',
+                branches: [[name: '*/master']],
+                extensions: [[$class: 'CleanCheckout']],
+                userRemoteConfigs: [[url: 'git@github.com:fortybelow/integration.git']]
+            ])
+        }
+
+        step("Build") {
+            sh 'tree'
+        }
+    }
+}
+
