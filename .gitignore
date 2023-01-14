@@ -4,3 +4,4 @@ reference
 workspace
 .ssh/*ecdsa*
 .vscode/*
+*.log
