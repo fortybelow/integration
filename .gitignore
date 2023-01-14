@@ -5,3 +5,4 @@ workspace
 .ssh/*ecdsa*
 .vscode/*
 *.log
+bazel-*
