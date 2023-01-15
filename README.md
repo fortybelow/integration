@@ -5,3 +5,5 @@
 - Ensure Jenkins instance has appropriate Pipeline plugins. (__*Pipeline: Declarative*__, etc.)
 - Build Job Twice for good measure.
 - Send webhooks to JENKINS_URL/generic-webhook-trigger/invoke?token=TOKENVALUE
+
+### fin.
